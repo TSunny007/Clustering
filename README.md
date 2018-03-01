@@ -1,7 +1,7 @@
 # Hierarchical-Clustering
 Comparing the usability of different kinds of Hierarchical clustering
 
-There are many variants of hierarchical clustering; here we explore 3.  The key difference is how you measure the distance http://latex.codecogs.com/gif.latex?%24%5Ctextbf%7Bd%7D%28S_1%2C%20S_2%29%24 between two clusters http://latex.codecogs.com/gif.latex?%24S_1%24 and http://latex.codecogs.com/gif.latex?%24S_2%24.  
+There are many variants of hierarchical clustering; here we explore 3.  The key difference is how you measure the distance ![equation]http://latex.codecogs.com/gif.latex?%24%5Ctextbf%7Bd%7D%28S_1%2C%20S_2%29%24 between two clusters http://latex.codecogs.com/gif.latex?%24S_1%24 and http://latex.codecogs.com/gif.latex?%24S_2%24.  
 \begin{itemize}
 \item[\textsf{Single-Link: }] measures the shortest link $\displaystyle{\textbf{d}(S_1,S_2) = \min_{(s_1,s_2) \in S_1 \times S_2} \|s_1 - s_2\|_2}$. 
 

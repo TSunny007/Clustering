@@ -6,3 +6,5 @@ You can click on any of the method names to preview the Jupyter Notebooks online
 [Complete-Link](https://nbviewer.jupyter.org/github/TarunSunkaraneni/Clustering/blob/master/notebooks/Complete-Link.ipynb): measures the longest link ![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/d701e358058dbf66bb18b11a570a089a150ef356)
 
 [Complete-Link](https://nbviewer.jupyter.org/github/TarunSunkaraneni/Clustering/blob/master/notebooks/Mean-Link.ipynb): measures the distances to the means.![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/f41f68299e332d3d7e25ad5518e9933ce91025d3)
+
+[Gonzalez-Algorithm](https://nbviewer.jupyter.org/github/TarunSunkaraneni/Clustering/blob/master/notebooks/Gonzalez.ipynb):  greedy approximation algorithm for finding k clusters that minimize the maximum diameter of a cluster.

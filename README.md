@@ -18,7 +18,7 @@ You can click on any of the method names to preview the Jupyter Notebooks online
 
 **Centroid-based**: Optimizes finding the k cluster centers and assign the objects to the nearest cluster center, such that the squared distances from the cluster are minimized. Chokes with bad initial centeroid initialization.
 
-[Lloyd's Algorithm](https://nbviewer.jupyter.org/github/TarunSunkaraneni/Clustering/blob/master/notebooks/Lloyd-Algorithm.ipynb)
+[Lloyd's Algorithm *(K-means)*](https://nbviewer.jupyter.org/github/TarunSunkaraneni/Clustering/blob/master/notebooks/Lloyd-Algorithm.ipynb)
 Consists of two important steps:
 1. **Assignment step**: Assign each observation to the cluster whose mean has the least squared Euclidean distance, this is intuitively the "nearest" mean. (partition into the Voronoi diagram by using the means as the "post offices")![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/145a262c93066470be0e062683d64340a1b20121)
 2. **Update step**: Calculate the new means to be the centroids of the observations in the new clusters.![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/740f4271e822c6400120cb7020ed9cb8439207da)

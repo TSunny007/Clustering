@@ -15,4 +15,4 @@ Consists of two important steps:
 1. **Assignment step**: Assign each observation to the cluster whose mean has the least squared Euclidean distance, this is intuitively the "nearest" mean. (partition into the Voronoi diagram by using the means as the "post offices")![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/145a262c93066470be0e062683d64340a1b20121)
 2. **Update step**: Calculate the new means to be the centroids of the observations in the new clusters.![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/740f4271e822c6400120cb7020ed9cb8439207da)
 
-The algorithm finished when the new means cease to update.
+The algorithm finishes when the new means cease to change.

@@ -26,3 +26,5 @@ Consists of two important steps:
 
 The algorithm finishes when the new means stop changing with new iterations.
 
+[K-means++](https://nbviewer.jupyter.org/github/TarunSunkaraneni/Clustering/blob/master/notebooks/K-meanspp.ipynb)
+Is meant to overcome K-means initialization pitfalls by assigning initial ceneroids by picking a random point using a  weighted  probability  distribution where picking a point p is propoortional to *D(x)^2*, the distance between it and all other established centeroids. After *K* centers have been chosen, we are able to proceed with the normal K-means algorithm. 

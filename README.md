@@ -7,8 +7,8 @@ The key difference is how you measure the distance between two clusters S<sub>1<
 
 [Single-Link](https://nbviewer.jupyter.org/github/TarunSunkaraneni/Clustering/blob/master/notebooks/Single-Link.ipynb): inter-cluster *distance* is measured by the shortest link (distance between the closest set of points from cluster S<sub>1</sub> to S<sub>2</sub>) ![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/4ea47cb29523a267681865d874c59575c56860d0)
 
-[Complete-Link](https://nbviewer.jupyter.org/github/TarunSunkaraneni/Clustering/blob/master/notebooks/Complete-Link.ipynb): inter-cluster *distance* is measured by the longest link (distance between the furthest set of points from cluster S<sub>1</sub> to S<sub>2</sub>)![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/d701e358058dbf66bb18b11a570a089a150ef356)
-
+[Complete-Link](): inter-cluster *distance* is measured by the longest link (distance between the furthest set of points from cluster S<sub>1</sub> to S<sub>2</sub>)![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/d701e358058dbf66bb18b11a570a089a150ef356)
+https://nbviewer.jupyter.org/github/TarunSunkaraneni/Clustering/blob/master/notebooks/Double-Link.ipynb
 [Mean-Link](https://nbviewer.jupyter.org/github/TarunSunkaraneni/Clustering/blob/master/notebooks/Mean-Link.ipynb): measures inter-cluster *distance* is measured by the mean link (distance between the center of masses of cluster S<sub>1</sub> and S<sub>2</sub>) ![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/f41f68299e332d3d7e25ad5518e9933ce91025d3)
 
 ---
